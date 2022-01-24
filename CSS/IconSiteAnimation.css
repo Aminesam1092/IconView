@@ -1,0 +1,296 @@
+@charset "utf-8";
+.IconSuiteLink {
+    color: black;
+    text-decoration: none;
+}
+
+.IconSuiteLink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.SnsSvgIcons__TwitterSvg {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.SnsSvgIcons__TwitterSvg:hover {
+    width: 50px;
+    height: 50px;
+}
+
+.SnsSvgIcons__InstergramSvg {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.SnsSvgIcons__InstergramSvg:hover {
+    width: 50px;
+    height: 50px;
+}
+
+.SnsSvgIcons__FacebookSvg {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.SnsSvgIcons__FacebookSvg:hover {
+    width: 50px;
+    height: 50px;
+}
+
+.SnsSvgIcons__GitHubrSvg {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.SnsSvgIcons__GitHubrSvg:hover {
+    width: 50px;
+    height: 50px;
+}
+
+.CreatorInformationConteiner__SnsSvgIcons__TwitterSvg {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.CreatorInformationConteiner__SnsSvgIcons__TwitterSvg:hover {
+    width: 50px;
+    height: 50px;
+}
+
+.CreatorInformationConteiner__SnsSvgIcons__InstergramSvg {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.CreatorInformationConteiner__SnsSvgIcons__InstergramSvg:hover {
+    width: 50px;
+    height: 50px;
+}
+
+.CreatorInformationConteiner__SnsSvgIcons__FacebookSvg {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.CreatorInformationConteiner__SnsSvgIcons__FacebookSvg:hover {
+    width: 50px;
+    height: 50px;
+}
+
+.CreatorInformationConteiner__SnsSvgIcons__GitHubrSvg {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.CreatorInformationConteiner__SnsSvgIcons__GitHubrSvg:hover {
+    width: 50px;
+    height: 50px;
+}
+
+.SearchIcon__Animation {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.SearchIcon__Animation:hover {
+    width: 40px;
+    height: 40px;
+}
+
+.MenuSvgText {
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'PT Serif', serif;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    color: rgb(92, 92, 92);
+}
+
+.MenuSvgText:hover {
+    font-size: 30px;
+    border-bottom: solid 1px black;
+    color: rgb(0, 0, 0);
+}
+
+.DownLoadButton {
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    font-weight: 600;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.DownLoadButton:hover {
+    width: 170px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    font-weight: 900;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 50px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 40px;
+}
+
+.ProductionBox {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.ProductionBox:hover {
+    width: 300px;
+    height: 400px;
+    color: white;
+    font-weight: 900;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 30px black;
+    font-family: 'PT Serif', serif;
+}
+
+#BoxConteiner {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.PageHierachy__Text {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.PageHierachy__Text:hover {
+    width: 600px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: 900;
+    color: black;
+}
+
+.IconSlideImage {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.IconSlideImage:hover {
+    width: 1382px;
+    height: 777px;
+}
+
+#BoxConteiner:hover {
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px black;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+#CreatorInformation__ConteinerFirstAnimation {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#CreatorInformation__ConteinerFirstAnimation:hover {
+    width: 250px;
+    height: 360px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px black;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: black;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    color: white;
+}
+
+#CreatorInformation__ConteinerSecondAnimation {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#CreatorInformation__ConteinerSecondAnimation:hover {
+    width: 250px;
+    height: 360px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px black;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: black;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    color: white;
+}
+
+#square {
+    animation: square 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgb(255, 121, 203) 50%, #09f 50%);
+    bottom: 0;
+    left: -50%;
+    opacity: 0.5;
+    position: fixed;
+    right: -50%;
+    top: 0;
+    z-index: -1;
+}
+
+.Boxsecond {
+    animation-direction: alternate-reverse;
+    animation-direction: 4s;
+}
+
+.BoxThrd {
+    animation-duration: 5s;
+}
+
+@keyframes square {
+    0% {
+        transform: translateX(-25%);
+    }
+    100% {
+        transform: translateX(20%);
+    }
+}

@@ -1,0 +1,390 @@
+@charset "utf-8";
+body,
+header,
+svg,
+span,
+p,
+h1,
+ul,
+li,
+circle,
+g,
+label,
+a {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.IconView {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+.IconView__Primary {
+    flex: 1;
+}
+
+.svg {
+    fill: currentColor;
+}
+
+.SnsSvgIcons {
+    margin-right: 10px;
+    padding-top: 5px;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.SnsSvgIcons::-webkit-scrollbar {
+    display: none;
+}
+
+.SnsSvgIcons__List {
+    display: flex;
+    justify-content: right;
+}
+
+.CreatorInformationConteiner__TitleName {
+    text-align: center;
+    font-family: "Noto Sans JP";
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.CreatorInformationConteiner__SnsSvgIcons {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.CreatorInformationConteiner__SnsSvgIcons__List {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CreatorImageSliderConteiner__SnsSvgIcons {
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.CreatorImageSliderConteiner__SnsSvgIcons__List {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Logo__ExplanatoryText {
+    font-size: 20px;
+    margin-bottom: -20px;
+    font-family: 'PT Serif', serif;
+    color: rgb(94, 94, 94);
+    text-align: center;
+}
+
+.Logo__LogoNameIconView {
+    display: block;
+    margin: auto;
+}
+
+.MainHeaderBox {
+    display: flex;
+    border-top: solid 0.5px rgb(0, 0, 0);
+    border-bottom: solid 0.5px rgb(0, 0, 0);
+    height: 150px;
+    justify-content: center;
+}
+
+.MenuandSearchConteiner {
+    display: flex;
+    justify-content: right;
+    line-height: 150px;
+    position: absolute;
+    left: 40px;
+}
+
+.SearchIcon {
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.FoursMenuBox {
+    width: 1000px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 900;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'PT Serif', serif;
+}
+
+.FoursMenuBox__Conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProductionContent {
+    width: 1350px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ProductionConteiner {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ProductionBox {
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.Production {
+    padding-top: 20px;
+}
+
+.IconName {
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.DownLoadButton {
+    padding-top: 20px;
+    font-size: 18px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.PageHierachy__Text {
+    width: 300px;
+    line-height: 50px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'PT Serif', serif;
+}
+
+.CreatorInformation {
+    display: flex;
+    justify-content: center;
+}
+
+.CreatorInformation__Conteiner {
+    width: 250px;
+    height: 330px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.CreatorInformationConteiner__SnsSvgIcons {
+    padding-top: 20px;
+}
+
+.CreatorName {
+    text-align: center;
+    font-weight: 900;
+}
+
+.AllIconLink {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+}
+
+.CreatorInformationConteiner__CreatorName {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'PT Serif', serif;
+}
+
+#SnsSvgIcon {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+dl {
+    font-family: "Sawarabi Gothic";
+    font-weight: 900;
+}
+
+input {
+    margin-top: 20px;
+    max-width: 900px;
+    font-family: "Sawarabi Gothic";
+    font-weight: 400;
+}
+
+input,
+select,
+textarea {
+    appearance: none;
+    padding: 5px;
+    border: 1px solid #9c9c9c;
+    box-shadow: 0px 0px 10px rgb(168, 168, 168);
+    border-radius: 10px;
+    margin-top: 10px;
+    max-width: 900px;
+}
+
+input[name="name"],
+input[name="kana"] {
+    width: 20rem;
+    max-width: 900px;
+}
+
+input[name="email"],
+textarea {
+    width: 20rem;
+    max-width: 900px;
+}
+
+textarea {
+    height: 100px;
+    max-width: 900px;
+}
+
+dd {
+    padding-bottom: 10px;
+    max-width: 900px;
+}
+
+input[name="tel"],
+textarea {
+    width: 20rem;
+    max-width: 600px;
+}
+
+input[name="ctypefast"] {
+    width: 20rem;
+    max-width: 2px;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    max-width: 200px;
+}
+
+.MouseAnimation {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.MouseAnimation:hover {
+    background-color: rgb(61, 61, 61);
+    box-shadow: 0px 0px 20px rgb(109, 109, 109);
+    color: white;
+}
+
+.ContactForm {
+    min-width: 320px;
+}
+
+.ContactFormMain {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    margin-top: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.ContactAnimation {
+    margin-top: 5px;
+    width: 200px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border-radius: 15px;
+}
+
+.ContactAnimation:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+
+.ContactText {
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.Form {
+    margin-left: 130px;
+}
+
+.ballon {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 250px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border-radius: 20px;
+    z-index: 1;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
+    color: white;
+}
+
+.ballon::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-top: 15px solid rgb(117, 117, 117);
+}
+
+.Footer {
+    height: 50px;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.Copryright {
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'PT Serif', serif;
+    background-color: black;
+}

@@ -1,0 +1,15 @@
+@charset "utf-8";
+.ImageSlideShowConteiner{
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+}
+.IconSlideImage{
+    width: 1152px;
+    height: 648px;
+}
+.CreatorImageSliderConteiner{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
