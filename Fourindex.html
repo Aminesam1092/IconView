@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="js">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/IconSuite.css">
+    <link rel="stylesheet" href="CSS/IconSiteAnimation.css">
+    <link rel="stylesheet" href="CSS/SlideShow.css">
+    <link rel="stylesheet" href="CSS/swiper.min.css">
+    <title>IconView</title>
+</head>
+<body class="IconView">
+    <main class="IconView__Primary">
+        <header class="PageHeader">
+            <div class="SnsSvgIcons">
+                <ul class="SnsSvgIcons__List">
+                    <a class="Link" href="https://twitter.com/home?lang=ja"><li id="SnsSvgIcon" class="TwitterIcon"><img class="SnsSvgIcons__TwitterSvg" src="icon/twitter.svg" width="23" height="23" alt="Twitterアイコン"></li>
+                    </a>
+                    <a class="Link" href="https://www.instagram.com/"><li id="SnsSvgIcon" class="InstagramIcon"><img class="SnsSvgIcons__InstergramSvg" src="icon/instergram.svg" width="23" height="23" alt="Instagramアイコン"></li>
+                    </a>
+                    <a class="Link" href="https://www.facebook.com/campaign/landing.php?campaign_id=1665596389&extra_1=s%7Cc%7C321610682049%7Ce%7Cfacebook%7C&placement=&creative=321610682049&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1665596389%26adgroupid%3D65075436220%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1028853%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D"><li id="SnsSvgIcon" class="FacebookIcon"><img class="SnsSvgIcons__FacebookSvg" src="icon/facebook.svg" width="23" height="23" alt="facebookアイコン"></li>
+                    </a>
+                    <a class="Link" href="https://github.com/"><li id="SnsSvgIcon" class="GitHubIcon"><img class="SnsSvgIcons__GitHubrSvg" src="icon/github.svg" width="23" height="23" alt="GitHubアイコン"></li>
+                    </a>
+            </div>
+            <div class="MainHeaderBox">
+                    <div class="MenuandSearchConteiner">
+                        <div class="MenuConteiner">
+                            <img id="MenuSvgIcon" class="MenuSvgIconHunb" width="20" height="20" src="icon/menu.svg" alt="">
+                                <span class="MenuSvgText">MENU</span>
+                        </div>
+                        <div class="SearchIcon">
+                            <img class="SearchIcon__Animation" src="icon/search.svg" width="22" height="22" alt="検索アイコン">
+                        </div>
+                </div>
+                <div class="Logo">
+                    <h1 class="Logo__ExplanatoryText">Icon introduction site　All Good Design.</h1>
+                    <img class="Logo__LogoNameIconView" src="logo/logo.svg" width="300" height="150"  alt="サイトのロゴ アニメーション">
+                </div>
+            </div>
+            <div class="FoursMenuBox">
+                <ul class="FoursMenuBox__Conteiner">
+                    <a class="IconSuiteLink" href="index.html"><li id="BoxConteiner">TOP</li></a>
+                    <a class="IconSuiteLink" href="Secondindex.html"><li class="SecondBox" id="BoxConteiner">PRODUCTION</li></a>
+                    <a class="IconSuiteLink" href="Thrdindex.html"><li class="ThrdBox" id="BoxConteiner">CREATOR</li></a>
+                    <li class="FoursBox" id="BoxConteiner">CONTACT</li>
+                </ul>
+            </div>
+            <div class="PageHierachy">
+                <div class="PageHierachy__Explantion">
+                    <h1 class="PageHierachy__Text">CONTACT</h1>
+                </div>
+            </div>
+        </header>
+    <div class="ContactFormMain">
+        <div class="ContactFormMainConteiner">
+            <h1 class="ContactText">ContactForm</h1>
+            <form class="Form" name="form1" action="" method="post">
+                <dl>
+                  <dt class="ContactAnimation"><label for="name">名前（必須）</label></dt>
+                  <dd><input type="text" name="name" id="name" placeholder="例：田中太郎" required></dd>
+                  <dt class="ContactAnimation"><label for="kana">ヨミガナ（必須）</label></dt>
+                  <dd><input type="text" name="kana" id="kana" placeholder="例：タナカタロウ"></dd>
+                  <dt class="ContactAnimation"><label for="tel">電話番号</label></dt>
+                  <dd><input type="tel" name="tel" id="tel" placeholder="例：0120-1145-8109"></dd>
+                  <dt class="ContactAnimation"><label for="email">メールアドレス（必須）</label></dt>
+                  <dd><input type="email" name="email" id="email" placeholder="sampletanaka@Zmail.com"></dd>
+                  <dt><label class="ContactAnimation" for="ctypefast">お問い合わせの種類（必須）</label></dt>
+                  <dd>
+                    <select name="ctype" id="ctype">
+                      <option value="">お問い合わせの種類を選択してください</option>
+                      <option value="1">商品のお問い合わせ</option>
+                      <option value="2">商品内容のお問い合わせ</option>
+                    </select>
+                  </dd>
+                  <dt><label class="ContactAnimation" for="content">お問い合わせ内容</label></dt>
+                  <dd><textarea name="content" id="content" placeholder="お問い合わせ内容を入力してください"></textarea></dd>
+                </dl>
+                <p><input class="MouseAnimation" type="submit" value="お問い合わせする"></p>
+              </form>
+        </div>
+    </div>
+    </main>
+    <footer class="Footer">
+        <div class="FooterConteiner">
+            <p class="Copryright">2021 12/08 made by doublali amine</p>
+        </div>
+    </footer>
+    <script src="JS/swiper.min.js"></script>
+    <script src="JS/IconSuite.js"></script>
+    <script src="JS/SlideShow.js"></script>
+</body>
+</html>
